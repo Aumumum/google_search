@@ -159,12 +159,16 @@ button {
     opacity: .35;
 }
 
-.ipt input {
+.ipt input{
     display: flex;
     flex: 1 1 auto;
+    box-sizing:border-box;
     margin-left: 16px;
     border: none;
+    outline: none;
     background-color: transparent;
+    font-size: 17px;
+    color: #3c4043;
 }
 
 .lucky input {
